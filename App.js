@@ -2,11 +2,11 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 import { StatusBar } from 'expo-status-bar';
-import Home from './Home';
-import Levels from './Levels';
-import Sandbox from './Sandbox';
-import Encyclopedia from './Encyclopedia';
-import Achievements from './Achiements';
+import Home from './components/Home';
+import Levels from './components/Levels';
+import Sandbox from './components/Sandbox';
+import Encyclopedia from './components/Encyclopedia';
+import Achievements from './components/Achievements';
 
 const AppNavigator = createStackNavigator(
   {
