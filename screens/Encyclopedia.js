@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { elements } from './elements';
+// import { elements } from './elements';
 
 export default function Encyclopedia() {
   return (
